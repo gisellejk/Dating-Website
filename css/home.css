@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Dancing+Script&family=Island+Moments&family=Lobster&family=Poppins:wght@300&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Dancing+Script&family=Island+Moments&family=Lobster&family=Pacifico&family=Poppins:wght@300&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@600&family=Source+Code+Pro:ital,wght@1,500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Combo&family=Dancing+Script&family=Island+Moments&family=Lobster&family=Pacifico&family=Poppins:wght@300&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@600&display=swap');*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgb(255, 174, 201, 1);  */
+    background-image: url('../img/cloud.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nav {
+    width: 100%;
+    height: 80px;
+    /* background-color: #2fc1c6; */
+    background-image: url('../img/blue1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    box-shadow: 4px 4px 9px -1px rgba(0,0,0,0.67);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav .navlogo {
+    width: 100px;
+    height: 100%;
+    /* background-color: rgb(255, 174, 201, 1); */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#nav .navlogo img {
+    width: 80px;
+    height: 60px;
+    object-fit: contain;
+    margin-top: 5px;
+}
+
+#nav .navlogo span {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(248, 125, 145);
+    margin-left: 10px;
+
+}
+
+#nav .navicon {
+    width: 800px;
+    height: 100%;
+    /* background-color: #2fc1c6; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+#nav .navicon .naviconx {
+    width: 100px;
+    height: 60px;
+    /* background-color: rgb(255, 174, 201, 1); */
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.71);
+}
+
+#nav .navicon .naviconx:hover {
+    cursor: pointer;
+    background-color: #1ca9ae;
+}
+
+#nav .navicon .naviconx:active {
+    background-color: #325d68;
+}
+
+#nav .navicon .naviconx img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+
+    margin: 10px 30px;
+
+}
+
+#nav .navrefresh {
+    width: 200px;
+    height: 100%;
+    /* background-color: #2fc1c6; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+#nav .navrefresh .navsetting {
+    width: 80px;
+    height: 60px;
+    background-color: rgb(255, 174, 201, 1);
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.71);
+}
+
+#nav .navrefresh .navsetting:hover {
+    cursor: pointer;
+    background-color: rgb(240, 142, 176);
+}
+
+#nav .navrefresh .navsetting:active {
+    background-color: rgb(177, 66, 103);
+}
+
+#nav .navrefresh .navsetting img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+
+    margin: 15px 25px;
+}
+
+#nav .navchatbox {
+    width: 80px;
+    height: 60px;
+    /* background-color: #2fc1c6; */
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.71);
+}
+
+#nav .navchatbox:hover {
+    cursor: pointer;
+    background-color: #1ca9ae;
+}
+
+#nav .navchatbox:active {
+    background-color: #325d68;
+}
+
+#nav .navchatbox img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin: 10px 20px;
+}
+
+
+#bodyx {
+    width: 100%;
+    height: 540px;
+    /* background-color: darkcyan; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 20px;
+}
+
+#bodyx .personx {
+    width: 90%;
+    height: 450px;
+    /* background-color: aquamarine; */
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bodyx .personx .person{
+    width: 320px;
+    height: 400px;
+    /* background-color: lightcyan; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.71);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    /* transform: translateY(5); */
+}
+
+#bodyx .personx .person:hover {
+    transform: translateY(-10px);
+}
+
+#bodyx .personx .person .picx {
+    width: 300px;
+    height: 300px;
+    background-color: plum;
+    border-radius: 30px;
+}
+
+#bodyx .personx .person .picx img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    object-fit: contain;
+}
+
+#bodyx .personx .person .symbolx {
+    width: 200px;
+    height: 50px;
+    /* background-color: pink; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.3);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#bodyx .personx .person .symbolx i {
+    font-size: 1.5rem;
+    color: #1ca9ae;
+}
+
+#bodyx .personx .person .symbolx i:hover{
+    cursor: pointer;
+    color: #457682;
+}
+
+#bodyx .personx .person .symbolx i:active {
+    color: #294f59;
+}
+
+#bodyx .search {
+    width: 300px;
+    height: 30px;
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.71);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#bodyx .search i{
+    color: #294f59;
+}
+
+#bodyx .search input {
+    width: 200px;
+    height: 30px;
+    background-color: pink;
+    color: #294f59;
+    font-size: 1rem;
+
+    /* text-align: center; */
+    border: none;
+    outline: none;
+}
+
+#bodyx .texty{
+    color: #e43a56;
+    font-size: 1.3rem;
+    font-family: 'Source Code Pro', monospace;
+    /* font-family: 'Pacifico', cursive; */
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+small {
+    color: #da5085;
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Bible Profile</title>
+        <link href="img/cupid1.jpg" rel="icon" type="img/jpg" size="16x16"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                background-image: url('img/bb2.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .fa-left-long {
+                width: 70px;
+                height: 40px;
+                font-size: 1.5rem;
+                /* background-color: #87daef; */
+                border-radius: 10px;
+                box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.71);
+                color: wheat;
+
+                text-align: center;
+                padding: 7px;
+            }
+
+            .fa-left-long:active {
+                color: wheat;
+            }
+
+            #jungkook{
+                width: 500px;
+                height: 600px;
+                /* background-color: palegreen; */
+                box-shadow: 0px 0px 9px 1px rgba(255, 250, 250, 0.71);
+                border-radius: 20px;
+
+                margin: 0 100px 0 100px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            #jungkook .photo {
+                width: 450px;
+                height: 150px;
+                /* background-color: plum; */
+
+                display: flex;
+                justify-content: left;
+                align-items: center;
+            }
+
+            #jungkook .photo img {
+                width: 150px;
+                height: 150px;
+                object-fit: contain;
+                box-shadow: 4px 4px 9px -1px rgba(235, 229, 229, 0.67);
+
+                border-radius: 20px;
+            }
+
+            #jungkook .photo .xy {
+                width: 300px;
+                height: 150px;
+                /* background-color: #477b88; */
+
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            #jungkook .photo .xy p{
+                font-size: 1.5rem;
+                color: wheat;
+                
+            }
+
+            #jungkook .photo .xy span {
+                color: wheat;
+            }
+
+            #jungkook .photo .xy .quantityx {
+                width: 300px;
+                height: 70px;
+                /* background-color: peru; */
+
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            #jungkook .photo .xy .quantityx .quantity {
+                width: 70px;
+                height: 50px;
+                /* background-color: palevioletred; */
+
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            #jungkook .photo .xy .quantityx .quantity p{
+                font-size: 1.5rem;
+                color: wheat;
+            }
+
+            #jungkook .photo .xy .quantityx .quantity a {
+                text-decoration: none;
+            }
+
+            #jungkook .photo .xy .quantityx .quantity span {
+                color: wheat;
+                
+            }
+
+            #jungkook .photo .xy .quantityx .quantity span:hover {
+                color: wheat;
+            }
+
+            #jungkook .gender {
+                width: 450px;
+                height: 100px;
+                /* background-color: palevioletred; */
+                box-shadow: 0px 0px 9px 1px rgba(239, 233, 233, 0.71);
+                border-radius: 20px;
+
+                display: flex;
+                justify-content: left;
+                align-items: center;
+            }
+
+            #jungkook .gender pre {
+                font-size: 1.2rem;
+                color: wheat;
+                margin-left: 100px;
+            }
+
+            #jungkook .gender i{
+                font-size: 1rem;
+                color: wheat;
+            }
+
+            #jungkook .bio {
+                width: 450px;
+                height: 100px;
+                /* background-color: papayawhip; */
+                box-shadow: 0px 0px 9px 1px rgba(240, 233, 233, 0.71);
+
+                border-radius: 20px;
+            }
+
+            #jungkook .bio pre {
+                font-size: 1.3rem;
+                color: wheat;
+
+                margin: 33px 20px 100px 0;
+
+            }
+
+            #jungkook .hobby {
+                width: 450px;
+                height: 150px;
+
+                /* background-color: powderblue; */
+                box-shadow: 0px 0px 9px 1px rgba(237, 231, 231, 0.71);
+                border-radius: 20px;
+
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            #jungkook .hobby .hobbyx {
+                color: wheat;
+                text-transform: uppercase;
+                list-style-type: none;
+                line-height: 60px;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <a href="home.html">
+            <i class="fa-solid fa-left-long"></i>
+        </a>
+        <section id="jungkook">
+            
+            <div class="photo">
+                <img src="img/bbx.jpg" alt="noti"/>
+
+                <div class="xy">
+                    <p>Bible Wichapas</p>
+                    <span>(Bibs)</span>
+
+                    <div class="quantityx">
+                        <div class="quantity">
+                            <p>147</p>
+                            <a href="#"><span>Posts</span></a>
+                        </div>
+
+                        <div class="quantity">
+                            <p>2.1M</p>
+                            <a href="#"><span>Followers</span></a>
+                        </div>
+
+                        <div class="quantity">
+                            <p>252</p>
+                           <a href="#"> <span>Following</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gender">
+                <pre>Thailand, born and raised
+TU Merch Engineer// 25 <i class="fa-solid fa-mars"></i></pre>
+                
+            </div>
+
+            <div class="bio">
+                <pre>
+  All we got are memories in the end..
+                </pre>
+            </div>
+
+            <div class="hobby">
+                <ul class="hobbyx">
+                    <li>#Acting</li>
+                    <li>#Singing</li>
+                    <!-- <li>#Rapping</li> -->
+                </ul>
+
+                <ul class="hobbyx">
+                    <!-- <li ></li> -->
+                    <li>#Swimming</li>
+                    <li>#Reading</li>
+                </ul>
+            </div>
+        </section>
+    </body>
+</html>

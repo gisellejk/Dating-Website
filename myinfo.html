@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eros</title>
+	<link rel="icon" type="img" href="img/cupid1.jpg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+		body{
+			width: 200vh;
+			height: 100vh;
+			font-family: 'Love Ya Like A Sister', cursive;
+			background-color: #EF798A;
+		}
+		.title{
+			width: 100%;
+			height: 20%;
+			display: flex;
+			justify-content: space-evenly;
+		}
+		label{
+			color: #800000; font-size: 2rem; font-weight: bolder; 
+		}
+		.one{
+			width: 100%;
+			height: 150px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			/*background-color: steelblue;*/
+		}
+		.one .aa{
+			width: 45%;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			/*background-color: bisque;*/
+		}
+		.one .aa p{
+			font-size: 2rem;
+			font-weight: bold;
+		}
+
+		.one .aa .ibox{
+			width: 60%;
+			height: 70px;
+			border-radius: 35px;
+			box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.2);
+			display: flex;
+			background-color: gainsboro;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.one .aa .ibox .input{
+			text-align: center;
+			border: none;
+			outline: none;
+			background-color: gainsboro;
+		}
+		span,a{
+			color: #7D82B8;
+			font-size: 2rem;
+			font-weight: bold;
+
+		}
+		.hobbies{
+			height: 100px;
+			background-color: aqua;
+			width: 60%;
+			border-radius: 50px;
+			box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.2);
+			display: flex;
+			background-color: gainsboro;
+			justify-content: space-around;
+			align-items: center;
+		}
+		i {
+			color: #246F7A;
+		}
+		a {
+			padding: 5px 20px;
+			background-color: #059696;
+			border-radius: 30px;
+			color: #fff;
+		}
+		footer{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			width: 100%;
+			height: 50px;
+			margin-top: 60px;
+		}
+	</style>
+</head>
+<body>
+	<div class="title">
+	<img src="img/myproject.png" alt="Pflove" >
+	<h1 style="font-size: 3rem; color: #613F75; text-align: center;">Your Profile</h1>
+	<img src="img/coffee.png" alt="couple">
+	</div>
+	<section>
+		<form action="" method="" enctype="multipart/form-data">
+			<div class="one">
+				<div class="aa">
+					<div class="ibox" style="width: 40%;">
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" class="input" placeholder="Louise" minlength="2" maxlength="10" autocomplete="off" required>
+					</div>
+					<span>おなまえ は?</span>
+				</div>
+				<div class="aa">
+					<div class="ibox" style="width: 45%;">
+						<label for="bdaymonth">Born In</label>
+						<input type="month" name="bdaymonth" id="bdaymonth" class="input" min="15" max="80" autocomplete="off" required>
+					</div>
+					<span>Dec 2006?</span>
+				</div>
+			</div>
+			<div class="one">
+				<div class="aa" style="width: 50%;">
+					<div class="ibox">
+						<label>Gender</label>
+						<input type="radio" name="gender" id="genderM" class="input" value="1">
+						<label for="genderM"><i class="fa-solid fa-mars"></i></label>
+						<input type="radio" name="gender" id="genderF" class="input" value="0">
+						<label for="genderF"><i class="fa-solid fa-venus"></i></label>
+						<input type="radio" name="gender" id="genderG" class="input" value="/">
+						<label for="genderG"><i class="fa-solid fa-mars-double"></i></label>
+						<input type="radio" name="gender" id="genderL" class="input" value="\">
+						<label for="genderL"><i class="fa-solid fa-venus-double"></i></label>
+					</div>
+					<span>Just Be Yourself <i class="fa-solid fa-heart-pulse"></i></span>
+				</div>
+				<div class="aa" >
+					<div class="ibox" style="width: 40%;">
+						<label for="country">Country</label>
+						<select name="country" id="country" class="input" required>
+							<option disabled selected>Choose Country</option>
+							<option>Myanmar</option>
+							<option value="us">US</option>
+							<option value="uk">UK</option>
+							<option value="au">Australia</option>
+							<option value="fl">Finland</option>
+							<option value="jp">Japan</option>
+							<option value="kr">Korea</option>
+							<option value="nz">New Zealand</option>
+							<option value="fl">Finland</option>
+							<option value="nw">Norway</option>
+							<option value="lu">Luxembourg</option>
+						</select>
+					</div>
+					<span>Where u belong...</span>
+				</div>
+			</div>
+			<center class="one">
+				<div class="hobbies">
+				<label>Hobbies</label>
+				<div class="ha"><div>
+				<input type="checkbox" name="hobbies" id="hobbys" class="" value="sg">
+				<label for="hobbys">Singing<i class="fa-solid fa-music"></i></label>
+				<input type="checkbox" name="hobbies" id="hobbym" class="" value="mv" >
+				<label for="hobbym">Movies<i class="fa-solid fa-video"></i></label>
+				<input type="checkbox" name="hobbies" id="hobbyd" class="" value="dw" >
+				<label for="hobbyd">Drawing<i class="fa-solid fa-palette"></i></label>
+				<input type="checkbox" name="hobbies" id="hobbyg" class="" value="gt" >
+				<label for="hobbyg">Guitar<i class="fa-solid fa-guitar"></i></label>
+				</div>
+				<div class="hb">
+				<input type="checkbox" name="hobbies" id="hobbygm" class="" value="gm">
+				<label for="hobbygm">Gaming<i class="fa-solid fa-gamepad"></i></label>
+				<input type="checkbox" name="hobbies" id="hobbyt" class="" value="tv" >
+				<label for="hobbyt">Travel<i class="fa-solid fa-mountain-sun"></i></label>
+				<input type="checkbox" name="hobbies" id="hobbyhk" class="" value="hk" >
+				<label for="hobbyhk">Hiking<i class="fa-solid fa-person-hiking"></i></label>
+				<input type="checkbox" name="hobbies" id="hobbybb" class="" value="bb" >
+				<label for="hobbybb">Basketball<i class="fa-solid fa-basketball"></i></label>
+				</div></div>
+			</div>
+			</center>
+			<center><a type="submit" class="submit" style="text-decoration: none;" href="honeyinfo.html">Continue</a></center>
+			<!-- <input type="submit" name="submit" id="submit" class="submit" value="login"/> -->
+		</form>
+	</section>
+	<footer>
+		<small>Going to Website, "Eros" Powered by TeamB</small>
+		<small>Copyright 2022-RFE11</small>
+	</footer>
+
+</body>
+</html>

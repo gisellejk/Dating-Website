@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Dancing+Script&family=David+Libre&family=Poppins:wght@300&family=Roboto&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: rgb(255, 174, 201, 1);
+}
+
+body .hole{
+	width: 450px;
+	height: 580px;
+	background-color: lightblue;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex-direction: column;
+
+	border-radius: 25px;
+	box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+body .hole .header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin: 10px 0px;
+	margin-right: 14px;
+}
+
+body .hole .header .eros{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+body .hole .login{
+	width: 420px;
+	height: 480px;
+	/*background-color: lightblue;*/
+
+}
+
+body .hole .login h1{
+	text-transform: uppercase;
+	width: 100%;
+	height: 90px;
+	/*background-color: red;*/
+	text-align: center;
+	font-size: 3.5rem;
+	color: #f21d0a;
+
+	margin-bottom: 15px;
+	border-radius: 50px;
+}
+
+body .hole .login div{
+	width: 100%;
+	height: 50px;
+	
+
+	margin-top: 10px;
+
+	border-radius: 30px;	
+}
+
+body .hole .login .one{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: white;
+}
+
+body .hole .login .one i{
+	width: 50px;
+	height: 50px;
+	/*background-color: green;*/
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 25px;
+}
+
+body .hole .login .one input{
+	width: 380px;
+	height: 50px;
+	/*background-color: yellow;*/
+
+	border: none;
+	outline: none;
+
+	font-size: 18px;
+	border-radius: 30px;
+}
+
+body .hole .login .keep{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+body .hole .login .keep input{
+	width: 50px;
+	height: 20px;
+}
+
+body .hole .login .keep label{
+	width: 420px;
+	height: 50px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	font-size: 17px;
+}
+
+body .hole .login .button{
+	width: 100%;
+	height: 50px;
+	background-color: #287dc7;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body .hole .login .button a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.6rem;
+}
+
+body .hole .login .forgot{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+
+body .hole .login .forgot a{
+	text-transform: uppercase;
+	font-size: 17px;
+	text-decoration: none;
+	color: #000;
+	margin-right: 10px;
+}
+
+body .hole .login .other{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+body .hole .login .other p{
+	font-size: 19px;
+	text-transform: capitalize;	
+}
+
+body .hole .login .other a{
+	font-size: 30px;
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+
+

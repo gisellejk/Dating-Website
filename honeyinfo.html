@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Eros</title>
+        <link rel="icon" type="img" href="img/cupid1.jpg">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Special+Elite&display=swap');
+        body {
+            font-family: 'Love Ya Like A Sister', cursive;
+            font-family: 'Special Elite', cursive;
+            width: 200vh;
+            height: 100vh;
+			background-color: #EF798A;
+        }
+        section{
+            display: flex;
+            justify-content: space-between;
+            height: 92vh;
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width: 25%;
+        }
+        h1{
+            font-size: 2.5rem;
+        }
+        h2{
+            font-size: 2rem;
+            font-weight: bolder;
+            color: #66023c;
+        }
+        .middle{
+            width: 44%;
+        }
+        .middle form .midform{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 90vh;
+
+        }
+        .middle .cone, .ctwo, .cthree{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .middle .cthree{
+            justify-content: center;
+        }
+        i{
+            color: maroon;
+        }
+        i,label{
+            font-size: 2rem;
+        }
+        label{
+            color: #560319;
+            font-weight: bold;
+        }
+        .ibox{
+            width: 160px;
+			height: 60px;
+			border-radius: 35px;
+			box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.2);
+			display: flex;
+			background-color: gainsboro;
+			justify-content: space-around;
+			align-items: center;
+        }
+        a{
+			font-size: 2rem;
+			font-weight: bold;
+            padding: 5px 20px;
+			background-color: #059696;
+			border-radius: 30px;
+			color: #fff;
+        }
+        .right{
+            width: 25%;
+            height: 100vh;
+            display: flex;
+        }
+        .right img{
+            object-fit: contain;
+        }
+        footer{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			width: 100%;
+			height: 50px;
+        }
+        </style>
+    </head>
+    <body>
+        <section>
+        <div class="left">
+            <img src="img/lfltu.png" alt="cutebear" width="50%">
+            <h1>You are looking for...</h1>
+            <img src="img/lfltu1.png" alt="Looking4love" width="50%">
+        </div>
+        <div class="middle">
+		    <form action="" method="" enctype="multipart/form-data">
+                <div class="midform">
+                <h2>The One Who is...</h2>
+                <div class="cone">
+                    <div class="ibox">
+                        <input type="radio" name="gender" id="genderM" class="input" value="1">
+				        <label for="genderM">A Boy<i class="fa-solid fa-mars"></i></label>
+                    </div>
+                    <span> Or </span>
+                    <div class="ibox">
+				        <input type="radio" name="gender" id="genderF" class="input" value="0">
+				        <label for="genderF">A Girl<i class="fa-solid fa-venus"></i></label>
+                    </div>
+                </div>
+                <h2>Whose Sexual Orientation is...<i class="fa-solid fa-clover"></i></h2>
+                <div class="ctwo">
+                    <div class="ibox" style="width: 220px;">
+                        <input type="radio" name="sexorien" id="st8" class="input" value="10">
+				        <label for="st8">Straight<i class="fa-solid fa-venus-mars"></i></label>
+                    </div>
+                    <span> Or </span>
+                    <div class="ibox" style="width: 180px;">
+				        <input type="radio" name="sexorien" id="gay" class="input" value="11">
+				        <label for="gay">Gay<i class="fa-solid fa-mars-double"></i>  <i class="fa-solid fa-venus-double"></i></label>
+                    </div>
+                </div>
+                <h2>Whose Age about</h2>
+                <div class="cthree">
+                    <div class="ibox">
+            <input type="number" name="age" id="age" class="" min="12" max="80" style="background-color: gainsboro; border: none;"><span>Years</span>
+                    </div>
+                    <h2>...Old</h2>
+                </div>
+			    <center><a style="text-decoration: none;" href="home.html">Continue</a></center>
+                </div>
+        </div>
+        <div class="right">
+            <img src="img/wedding.jpg" alt="wedding"; style="width: 100%;">
+        </div>
+        </section>
+        <footer>
+            <small>Going to Website, "Eros" Powered by TeamB</small>
+            <small>Copyright 2022-RFE11</small>
+        </footer>
+    </body>
+</html>
